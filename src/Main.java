@@ -1,6 +1,10 @@
 abstract class Employee{
 private String name;
 private  int id;
+
+public Employee(String name,String id){
+
+}
 }
 
 
