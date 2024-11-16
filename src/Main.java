@@ -21,6 +21,7 @@ this.id = id;
 
     public abstract double calculateSalary();
 
+    // Override toString() to display employee details, including their calculated salary
     @Override
     public String toString(){
         return "Employee [name="+name+", id="+id+" , salary="+calculateSalary()+"]";
