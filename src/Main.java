@@ -1,10 +1,11 @@
 import java.util.ArrayList; // Import ArrayList for managing collections of employees
-import java.util.List;   // Import List 
+import java.util.List;   // Import List
 
 abstract class Employee{
 private String name;
 private  int id;
 
+    // Constructor to initialize name and ID
 public Employee(String name,int id){
 this.name =name;
 this.id = id;
