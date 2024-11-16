@@ -100,7 +100,7 @@ class PayrollSystem{
 
 public class Main {
     public static void main(String[] args) {
-        PayrollSystem payrollSystem = new PayrollSystem();
+        PayrollSystem payrollSystem = new PayrollSystem();  // Create a payroll system
         FullTimeEmployee emp1 = new FullTimeEmployee("Hirun",1, 70000.0);
         PartTimeEmployee emp2 = new PartTimeEmployee("Jayathu", 2, 40, 100);
 
