@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+import java.util.ArrayList; // Import ArrayList for managing collections of employees
 import java.util.List;
 
 abstract class Employee{
